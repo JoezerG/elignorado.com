@@ -1,0 +1,35 @@
+---
+import Badged from "./Badged.astro";
+---
+
+<header>
+  <Badged />
+  <p class="pre-title">¡Logro Desbloqueado!</p>
+  <h1 class="title">Maestro de la Indiferencia</h1>
+</header>
+
+<style lang="scss">
+  header {
+    // margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+
+    .pre-title {
+      font-size: 2rem;
+      color: white;
+    }
+
+    .title {
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: "Press Start 2P", sans-serif;
+      line-height: 1.5;
+      color: #05dbf2;
+      text-shadow: 0px 5px 0px hsl(197, 96%, 28%);
+    }
+  }
+</style>
